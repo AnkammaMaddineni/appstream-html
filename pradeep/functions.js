@@ -70,4 +70,84 @@
       console.log(x);
 
 
-    
+
+
+
+      // Closure :   Functions inside function
+
+
+
+      function greetings(name) {
+         console.log('Hello, ' + name + '!');
+       }
+       
+       // Calling the greetings function
+
+       greetings('Sai');
+
+
+       //  MAth
+
+       function sum(a,b){
+         return a+b;
+         sum(1+2);
+         console.log(sum());
+         
+       }
+       
+
+       // function expression
+
+       var mySum = function  sum(a,b){
+return a-b;
+       };
+       console.log(mySum(10-20));  // output -10
+
+
+
+       /// Variable  Hoisting  in java script
+
+       var x =20;
+       var y=10;
+       var z =x+y;
+       console.log(z);  // 
+
+       // the below is hoisting
+
+       console.log(z); 
+       var x =20;
+       var y=10;
+       var z =x+y;
+
+
+       // This is function hoisting
+
+       function greet(){
+       console.log("hello");
+       }
+       greet();
+
+
+
+        greet ();   // calling here 
+       function greet(){
+         console.log("hello");
+       }
+
+
+       // This is function expression hoisting
+       var sweet =function (){
+         console.log("ram!");
+   
+       };
+
+       sweet();
+
+
+       sweet();
+       var sweeet =function (){
+         console.log("ram!");
+       };
+
+
+
