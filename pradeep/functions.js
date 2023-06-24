@@ -150,4 +150,48 @@ return a-b;
        };
 
 
+       // Global scope :
+      // Global Scope: Variables declared outside any function or block have global scope. They can be accessed from anywhere in your code, including other functions and blocks.
 
+
+      // Global scope Char
+var globalChar = " Global";
+
+function exampleFunction() {
+  // Accessing the global Char inside a function
+  console.log(globalChar);
+}
+
+exampleFunction(); // Output: " Global"
+console.log(globalChar); // Output: "Global"
+
+
+
+// Parent Scope
+
+// In JavaScript, the concept of parent scope refers to the scope that encompasses another scope. This relationship occurs when you have nested functions or functions defined within other functions. The parent scope contains variables and functions that are accessible to the nested or inner scopes
+  
+ function outFunction (){
+   var outVaraible = 'A hero';
+   
+   function innerFunction(){
+      var innerVaraible = 'A super hero';
+
+      // Accesing outer and inner scope varabiles
+
+      console.log(outVaraible);
+      console.log(innerVaraible);
+   }
+
+      // Calling 
+
+      innerFunction();
+   }
+
+   // Calling out function
+   outFunction();
+
+
+   
+
+ 
