@@ -90,3 +90,51 @@ function myFunction(a, b) {
   return a - b;
 }
 console.log(x);
+
+// functions expression
+
+let colors = function() {
+  console.log("green, red, blue");
+};
+
+colors();
+
+// function declaration
+
+function callAdd(x, y) {
+	let z = x + y;
+	return z;
+}
+console.log(callAdd(7, 4));
+
+// example 
+function add(a, b) {
+  console.log(a + b);
+}
+
+add(4, 5);
+add(6, 7);
+
+// function expression 
+
+let calSub = function (x, y) {
+	let z = x - y;
+	return z;
+}
+
+console.log("Subtraction : " + calSub(7, 4));
+
+// example
+
+// find the square of a number
+// function is declared inside the variable
+var x = function(num) { 
+  return num * num 
+};
+console.log(x(4));
+
+// can be used as variable value for other variables
+var y = x(3);
+console.log(y);
+
+
