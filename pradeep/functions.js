@@ -90,15 +90,16 @@
 
        function sum(a,b){
          return a+b;
-         sum(1+2);
+       }
+         sum(1,2);
          console.log(sum());
          
-       }
+       
        
 
        // function expression
 
-       var mySum = function  sum(a,b){
+       var mySum = function  (a,b){
 return a-b;
        };
        console.log(mySum(10-20));  // output -10
