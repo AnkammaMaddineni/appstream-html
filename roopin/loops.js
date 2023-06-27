@@ -48,3 +48,27 @@ var stu = {
 
 var fun = greeting.bind(stu, 'how are you', 'how is your day');
 fun();
+
+// conditions
+
+// check if the number is positive or negative/zero
+// if else
+var number = prompt("Enter a number: ");
+
+if (number > 0) {
+  console.log("The number is positive");
+}else {
+  console.log("The number is either a negative number or 0");
+}
+
+// check if the number if positive, negative or zero
+// if-else-if-else
+var number = prompt("Enter a number: ");
+
+if (number > 0) {
+    console.log("The number is positive");
+}else if (number == 0) {
+  console.log("The number is 0");
+}else {
+    console.log("The number is negative");
+}
