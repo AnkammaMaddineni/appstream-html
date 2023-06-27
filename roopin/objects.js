@@ -65,3 +65,5 @@ var student7 = new Manager(143, 'rocks', 'vp', 'male');
 var student8 = new Manager(144, 'sagar', 'bhai', 'male');
 console.log(student7);
 console.log(student8);
+
+
