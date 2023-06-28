@@ -72,3 +72,13 @@ if (number > 0) {
 }else {
     console.log("The number is negative");
 }
+
+// string literals
+
+var fname = 'roopin';
+var lname = 'vipparthi'
+function greeting(message) {
+  return `hello ${fname} ${lname} ${message}`
+}
+
+console.log(greeting('how are you'))
