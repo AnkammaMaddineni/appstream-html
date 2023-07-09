@@ -7,6 +7,6 @@ import Nasa from './Nasa.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Nasa />
+    <App />
   </React.StrictMode>,
 )
