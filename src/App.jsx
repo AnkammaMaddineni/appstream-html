@@ -10,10 +10,10 @@ class App extends React.Component {
   render() {
     return (
       <>
-      <form align="center">
-      <h1>Class Components</h1>
-      <State/>
-      </form>
+     
+      <h1>Class Component</h1>
+      <Registration/>
+      
       </>
     )
   }
